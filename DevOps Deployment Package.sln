@@ -5,6 +5,13 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevOps Deployment Package", "DevOps Deployment Package\DevOps Deployment Package.csproj", "{170C0103-3F94-4896-9062-6314167F596A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin", "Plugin\Plugin.csproj", "{E7A98804-DCC4-432D-8202-6877E6335109}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebRespurces", "WebRespurces", "{AA407D7E-6159-4720-8A63-174185F67AA2}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\JavaScript\copyPhone.js = ..\..\JavaScript\copyPhone.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +22,10 @@ Global
 		{170C0103-3F94-4896-9062-6314167F596A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{170C0103-3F94-4896-9062-6314167F596A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{170C0103-3F94-4896-9062-6314167F596A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7A98804-DCC4-432D-8202-6877E6335109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7A98804-DCC4-432D-8202-6877E6335109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7A98804-DCC4-432D-8202-6877E6335109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7A98804-DCC4-432D-8202-6877E6335109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
